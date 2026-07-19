@@ -1,0 +1,21 @@
+THANKBRAD V4 — DÉPLOIEMENT
+
+1. Décompresse thankbrad-v4.zip.
+2. Ouvre PowerShell dans le dossier thankbrad contenant package.json.
+
+Ou utilise :
+cd "C:\Users\Brad\Downloads\thankbrad-v4\thankbrad"
+
+Puis :
+
+git init
+git remote add origin https://github.com/prettyboibrd/closer.git
+git add .
+git commit -m "ThankBrad V4: animation croisee et compatibilite"
+git branch -M master
+git push -u origin master --force
+
+Si origin existe déjà :
+git remote set-url origin https://github.com/prettyboibrd/closer.git
+
+Les variables Vercel/Supabase/Anthropic ne changent pas.

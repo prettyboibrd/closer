@@ -1,0 +1,27 @@
+THANKBRAD V1 — DÉPLOIEMENT RAPIDE
+
+1. Décompresse thankbrad-v1.zip.
+2. Ouvre PowerShell dans le dossier "thankbrad".
+3. Exécute :
+
+   git init
+   git remote add origin https://github.com/prettyboibrd/closer.git
+   git add .
+   git commit -m "ThankBrad: nouveau nom, Brad et mode classique"
+   git branch -M master
+   git push -u origin master --force
+
+Si PowerShell répond que le remote "origin" existe déjà :
+
+   git remote set-url origin https://github.com/prettyboibrd/closer.git
+   git push -u origin master --force
+
+Vercel redéploiera automatiquement. Les variables Supabase et Anthropic déjà
+configurées dans Vercel restent en place.
+
+À TESTER APRÈS DÉPLOIEMENT
+- L'accueil affiche ThankBrad.
+- À la création, le choix "Avec Brad" / "Mode classique" apparaît.
+- En mode classique, aucune attente "Brad prépare la suite".
+- Avec Brad, les catégories changent régulièrement.
+- Les deux téléphones voient le même mode.

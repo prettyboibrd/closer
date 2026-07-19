@@ -1,0 +1,23 @@
+========================================
+THANKBRAD — METTRE EN LIGNE (Vercel)
+========================================
+
+Ce dossier NE contient PAS les clés Supabase (c'est voulu, pour la sécurité).
+Tu les ajouteras directement dans Vercel.
+
+TES VARIABLES À COLLER DANS VERCEL
+(section "Environment Variables" au moment du déploiement) :
+
+  Nom  : NEXT_PUBLIC_SUPABASE_URL
+  Valeur : https://dtatxcdctkqnsorkbdyn.supabase.co
+
+  Nom  : NEXT_PUBLIC_SUPABASE_ANON_KEY
+  Valeur : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImR0YXR4Y2RjdGtxbnNvcmtiZHluIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODQzOTY2MDksImV4cCI6MjA5OTk3MjYwOX0.OdWKMkkXW7obg3DX7D3Qa7ng-nT7AghiALIjA0fzVuQ
+
+Les étapes détaillées se font dans la conversation avec l'assistant.
+
+
+  Nom  : ANTHROPIC_API_KEY
+  Valeur : ta clé Anthropic déjà configurée dans Vercel (ne jamais la mettre dans GitHub)
+
+Le mode classique fonctionne même si cette clé est absente.

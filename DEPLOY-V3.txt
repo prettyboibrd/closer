@@ -1,0 +1,18 @@
+THANKBRAD V3 — DÉPLOIEMENT
+
+1. Ouvre PowerShell dans le dossier thankbrad.
+2. Exécute :
+
+git init
+git remote add origin https://github.com/prettyboibrd/closer.git
+git add .
+git commit -m "ThankBrad V3: sujets, contexte et intensité"
+git branch -M master
+git push -u origin master --force
+
+Si origin existe déjà :
+
+git remote set-url origin https://github.com/prettyboibrd/closer.git
+
+Vercel redéploiera automatiquement.
+Ne change pas les clés Supabase ou Anthropic déjà enregistrées dans Vercel.
